@@ -1,0 +1,45 @@
+
+
+*{
+    margin: auto;
+    color: rgb(23, 22, 22);
+    justify-content: space-between;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgb(25, 121, 255) 0%, rgb(162, 58, 74));
+  
+}
+
+.liste {
+    list-style: none;
+    background: linear-gradient(45deg, rgb(25, 121, 255) 0%, rgb(100, 24, 167));
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.items {
+    margin-right: 25px;
+    color: rgb(103, 82, 82);
+    cursor: pointer;
+    justify-content: space-between;
+
+}
+
+@media screen {
+    
+    .liste {
+        flex-direction: row;
+        height: 100%;
+    }
+
+   
+}
+
+
